@@ -46,6 +46,28 @@
     height: 20px;
     cursor: pointer;
 }
-.submit-button{
+.submit-button:hover{
     background-color: #3b5998;
+}
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 134px;
+    padding-top: 52px;
+}
+.right-section{
+    width: 50%;
+    float: left;
+}
+.main-body{
+    background: linear-gradient(#ffff,#d3d8e8);
+    height: 500px;
+    width: 100%;
+}
+.image{
+    width: 581px;
+}
+.para{
+    font-weight: bold;
+    font-size: 26px;
 }
