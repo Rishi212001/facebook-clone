@@ -57,7 +57,8 @@
 }
 .right-section{
     width: 50%;
-    float: left;
+    float: right;
+    margin-left: 20px;
 }
 .main-body{
     background: linear-gradient(#ffff,#d3d8e8);
@@ -70,4 +71,7 @@
 .para{
     font-weight: bold;
     font-size: 26px;
+}
+.question{
+    width: 10px;
 }
