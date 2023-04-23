@@ -52,13 +52,11 @@
 .left-section{
     width: 50%;
     float: left;
-    padding-left: 134px;
     padding-top: 52px;
 }
 .right-section{
     width: 50%;
     float: right;
-    margin-left: 20px;
 }
 .main-body{
     background: linear-gradient(#ffff,#d3d8e8);
