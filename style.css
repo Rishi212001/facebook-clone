@@ -8,9 +8,9 @@
     font-family: Arial, Helvetica, sans-serif ;
     }
 .logo{
+    float: left;
     width: 50%;
-    padding-top: 32px;
-    float left;
+    padding-top: 31px;
 }
 .login{
     margin-top: -75px;
@@ -31,7 +31,7 @@
     font-size: 11px;
 }
 .login-control{
-    margin-left: 135px;
+    margin-left: 97px;
     
 }
 .forgotten{
@@ -65,11 +65,53 @@
 }
 .image{
     width: 581px;
+    margin-left: 73px;
 }
 .para{
     font-weight: bold;
     font-size: 26px;
+    margin-left: 90px;
 }
 .question{
     width: 10px;
+}
+.para1{
+    color: black;
+    margin-left: 62px;
+}
+.para2{
+    margin-top: -16px;
+    margin-left: 65px;
+}
+.form1{
+    height: 24px;
+    width: 204px;
+    border-radius: 4px;
+    font-size: 15px;
+    border-color: #ffff;
+    margin: 5px;
+}
+.form2{
+    width: 428px;
+    height: 24px;
+    border-radius: 4px;
+    font-size: 15px;
+    border-color: #ffff;
+    margin: 5px;
+}
+.bday{
+    color: grey;
+}
+.bday1{
+    height: 24px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-color: #ffff;
+}
+.gender{
+    color: grey;
+}
+.radio{
+    margin-left: 30px;
 }
