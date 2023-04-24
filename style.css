@@ -60,7 +60,7 @@
 }
 .main-body{
     background: linear-gradient(#ffff,#d3d8e8);
-    height: 500px;
+    height: 544px;
     width: 100%;
 }
 .image{
@@ -138,4 +138,8 @@
     font-size: 24px;
     font-weight: bold;
     color: #ffff;
+    
+}
+.para4{
+   margin-top: 38px;
 }
