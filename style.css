@@ -83,6 +83,9 @@
     margin-top: -16px;
     margin-left: 65px;
 }
+.form{
+    margin-left: 57px;
+}
 .form1{
     height: 24px;
     width: 204px;
@@ -110,8 +113,29 @@
     border-color: #ffff;
 }
 .gender{
+    color: black;
+}
+.gender1{
     color: grey;
 }
 .radio{
     margin-left: 30px;
+}
+.para3{
+    color: grey;
+    font-size: 14px;
+}
+.link{
+    color: blue;
+    text-decoration: none;
+}
+.sign-up{
+    width: 227px;
+    height: 46px;
+    border-radius: 4px;
+    border-color: #ffff;
+    background-color: green;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffff;
 }
