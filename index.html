@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <div class="container">
         <div class="header">
             <div class="logo">
@@ -39,24 +40,24 @@
             <div class="right-section">
                 <h1 class="para1">Create an account</h1>
                 <h4 class="para2">it's quick and easy</h4>
-                <form class="form" action="">
-                    <input class="form1" type="text" placeholder="Full name">
-                    <input class="form1" type="text" placeholder="Surname"><br>
-                    <input class="form2" type="text" placeholder="Mobile number or Email address"><br>
-                    <input class="form2" type="text" placeholder="New password"><br>
+                <form class="form" action="" id="signup-form">
+                    <input class="form1" name="fname" type="text" placeholder="Full name">
+                    <input class="form1" name="sname" type="text" placeholder="Surname"><br>
+                    <input class="form2" name="emailAddress" type="text" placeholder="Mobile number or Email address"><br>
+                    <input class="form2" name="password" type="text" placeholder="New password"><br>
                     <label class="bday">Birthday</label><br>
-                    <select class="bday1" name="" id="">
+                    <select class="bday1" name="day" id="">
                         <option value="">Day</option>
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4</option>
-                        <option value="">5</option>
-                        <option value="">6</option>
-                        <option value="">7</option>
-                        <option value="">8</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
                     </select>
-                    <select class="bday1" name="" id="">
+                    <select class="bday1" name="month" id="">
                         <option value="">Month</option>
                         <option value="">January</option>
                         <option value="">February</option>
@@ -71,7 +72,7 @@
                         <option value="">November</option>
                         <option value="">December</option>
                     </select>
-                    <select class="bday1" name="" id="">
+                    <select class="bday1" name="year" id="">
                         <option value="">year</option>
                         <option value="">2000</option>
                         <option value="">2001</option>
@@ -84,11 +85,11 @@
                     </select>
                     <img class="question" src="image/OIP (1).jpg" alt=""><br><br>
                     <label class="gender1">Gender</label><br>
-                    <input type="radio">
+                    <input name="gender" type="radio">
                     <label class="gender">Female</label>
-                    <input type="radio">
+                    <input name="gender" type="radio">/
                     <label class="gender">Male</label>
-                    <input type="radio">
+                    <input name="gender" type="radio">
                     <label class="gender">Custom</label>
                     <img class="question" src="image/OIP (1).jpg" alt=""><br><br>
                     <p class="para3">By clicking Sign Up, you agree to our <a class="link" href="" >Terms,Data Privacy policy</a><br>and <a class="link" href="" >Cookies Policy</a>.You may recieve SMS notification from<br>us and can opt out at any time</p>
@@ -98,5 +99,8 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
